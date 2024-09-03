@@ -1,23 +1,28 @@
 h1{
     text-align: center;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     margin:0;
     background-color: #ffffff;
-
 }
+
 header{
     height: calc (100vh - 150px);
     background: #ffefe7;
+    image-orientation: calc(100vh - 150px);
+    image-orientation: no-repeat center/80%;
 }
 
 
 ul{
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 li{
@@ -32,11 +37,17 @@ nav{
 
 }
 
+
+
 nav ul li a{
     text-decoration: none;
     color: #ff3131;
 } 
 
+
 p {
     color: #000; 
+    text-align: justify;
+    justify-content: space-around;
+    text-indent: 30px;
 }
